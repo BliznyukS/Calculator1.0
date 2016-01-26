@@ -10,8 +10,9 @@ public class SimpleCalculator {
         JPanel windowContent = new JPanel();
 
         //Задаём менеджер отображения для этой панели
-        FlowLayout f1 = new FlowLayout();
-        windowContent.setLayout(f1);
+        //FlowLayout f1 = new FlowLayout();
+        GridLayout gr1 = new GridLayout(4,2,5,5);
+        windowContent.setLayout(gr1);
 
         // Создаём компененты в памяти
         JLabel label1 = new JLabel("Number 1: ");
@@ -36,7 +37,7 @@ public class SimpleCalculator {
         frame.setContentPane(windowContent);
 
         //Задаём и размер и делаем фрейм видимым
-        frame.setSize(400,100);
+        frame.setSize(400, 100);
         frame.setVisible(true);
 
     }
