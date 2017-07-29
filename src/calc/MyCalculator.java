@@ -47,7 +47,7 @@ public class MyCalculator {
 
         //Создаём панель с GridLayout, которая содержит 12 кнопок
         p1 = new JPanel();
-        GridLayout g1 = new GridLayout(4,3);
+        GridLayout g1 = new GridLayout(4, 3);
         p1.setLayout(g1);
 
         //Добавляем кнопки на панель p1
@@ -65,7 +65,7 @@ public class MyCalculator {
         p1.add(buttonEqual);
 
         //Помещаем панель в центральную область окна
-        windowContent.add("Center",p1);
+        windowContent.add("Center", p1);
 
         //Создаём фрейм с задаём его основую область окна
         JFrame frame = new JFrame("Calculatur");
@@ -77,7 +77,8 @@ public class MyCalculator {
         //Наконец, отображаем окно
         frame.setVisible(true);
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         MyCalculator calc = new MyCalculator();
     }
 

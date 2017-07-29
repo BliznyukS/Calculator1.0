@@ -11,7 +11,7 @@ public class SimpleCalculator {
 
         //Задаём менеджер отображения для этой панели
         //FlowLayout f1 = new FlowLayout();
-        GridLayout gr1 = new GridLayout(4,2,5,5);
+        GridLayout gr1 = new GridLayout(4, 2, 5, 5);
         windowContent.setLayout(gr1);
 
         // Создаём компененты в памяти
